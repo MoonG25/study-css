@@ -1,0 +1,28 @@
+:root {
+  --bemily-body-text-color: #{$dark};
+  --bemily-body-bg-color: #{$white};
+  --bemily-btn-primary-color: #{$white};
+  --bemily-btn-primary-bg: #{$green};
+  --bemily-btn-primary-bg-hover: #{$green-light};
+  --bemily-btn-secondary-color: #{$white};
+  --bemily-btn-secondary-bg: #{$dark};
+  --bemily-form-color: #{$dark};
+  --bemily-form-bg: #{$white};
+  --bemily-form-error-color: #{$red};
+  --bemily-form-error-border: #{$red};
+  --bemily-form-border-focus-color: #{$green};
+  --bemily-body-font-size: #{$fs-base};
+  --bemily-body-font-weight: #{$fw-normal};
+  --bemily-h1-font-size: #{$h-1};
+  --bemily-h2-font-size: #{$h-2};
+  --bemily-h3-font-size: #{$h-3};
+  --bemily-h4-font-size: #{$h-4};
+  --bemily-h5-font-size: #{$h-5};
+  --bemily-h6-font-size: #{$h-6};
+  --bemily-h1-font-weight: #{$fw-medium};
+  --bemily-h2-font-weight: #{$fw-medium};
+  --bemily-h3-font-weight: #{$fw-medium};
+  --bemily-h4-font-weight: #{$fw-normal};
+  --bemily-h5-font-weight: #{$fw-normal};
+  --bemily-h6-font-weight: #{$fw-light};
+}

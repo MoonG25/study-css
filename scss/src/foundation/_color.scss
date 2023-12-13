@@ -1,0 +1,32 @@
+/* =============================================
+=            Foundation - colors              =
+============================================= */
+
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+
+/* =============================================
+=            Global text colors               =
+============================================= */
+$body-text-color: var(--bemily-body-text-color, $dark) !default;
+$body-bg-color: var(--bemily-body-bg-color, $white) !default;
+
+/* =============================================
+=                 Buttons                     =
+============================================= */
+$btn-primary-color: var(--bemily-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--bemily-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--bemily-btn-primary-bg-hover, $green-light) !default;
+
+/* =============================================
+=                 Forms                       =
+============================================= */
+$form-color: var(--bemily-form-color, $dark) !default;
+$form-bg: var(--bemily-form-bg, $white) !default;
+$form-error-color: var(--bemily-form-error-color, $red) !default;
+$form-error-border: var(--bemily-form-error-border, $red) !default;
+$form-border-focus-color: var(--bemily-form-border-focus-color, $green) !default;
+
