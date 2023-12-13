@@ -8,6 +8,14 @@
     "lint:fix": "yarn lint --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": "yarn lint:fix"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +23,8 @@
     "normalize-scss": "^8.0.0"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
     "stylelint": "^15.11.0",
     "stylelint-config-sass-guidelines": "^10.0.0",
     "stylelint-config-standard": "^34.0.0"
