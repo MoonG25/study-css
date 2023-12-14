@@ -8,6 +8,14 @@
     "lint:fix": "yarn lint --fix",
     "build": "node src/scripts/build.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": "yarn lint:fix"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

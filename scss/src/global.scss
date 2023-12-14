@@ -12,11 +12,11 @@
  =                   Foundations               =
  ============================================= */
  
-@import url("foundation/all");
+@import "foundation/all";
 
 /* ==============================================
 =                   Base                      =
 ============================================= */ 
 
-@import url("base/reset");
-@import url("base/root");
+@import "base/reset";
+@import "base/root";
